@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
 
 
 * {
@@ -47,7 +47,6 @@ html{
 body{
     color: var(--white-color);
     overflow: hidden;
-    /* background: seagreen; */
 }
 
 p{
@@ -103,4 +102,4 @@ p{
 .nav-list li:hover .tooltip{
     visibility: visible;
     opacity: 1;
-}
+} */
