@@ -129,9 +129,9 @@ p{
     backface-visibility: hidden;
 }
 
-/* .home{
+.home{
     display: flex;
     align-items: center;
     gap: 5rem;
-} */
+}
 
