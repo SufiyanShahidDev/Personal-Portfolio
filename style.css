@@ -165,7 +165,7 @@ p{
     font-weight: 600;
 }
 
-/* .btn:hover{
+.btn:hover{
     box-shadow: none;
 }
 
@@ -182,4 +182,4 @@ p{
     font-size: 2rem;
     color: var(--main-color);
     margin: 0 .8rem;
-} */
+}
