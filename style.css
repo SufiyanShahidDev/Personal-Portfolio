@@ -154,7 +154,7 @@ p{
     align-items: center;
 }
 
-/* .btn{
+.btn{
     display: inline-flex;
     padding: 1.2rem 3rem;
     background: var(--main-color);
@@ -163,4 +163,4 @@ p{
     font-size: 1.6rem;
     color: var(--bg-color);
     font-weight: 600;
-} */
+}
