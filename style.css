@@ -128,3 +128,10 @@ p{
     padding: 0 10%;
     backface-visibility: hidden;
 }
+
+/* .home{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+} */
+
