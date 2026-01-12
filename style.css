@@ -184,7 +184,7 @@ p{
     margin: 0 .8rem;
 }
 
-/* .home-info .btn-sci .sci a:hover{
+.home-info .btn-sci .sci a:hover{
     background: var(--main-color);
     color: var(--bg-color);
 }
@@ -199,4 +199,4 @@ p{
     box-shadow: 0 0 2rem var(--main-color);
     display: flex;
     justify-content: center;
-} */
+}
