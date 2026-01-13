@@ -117,7 +117,7 @@ p{
     height: 100%;
     transform-style: preserve-3d;
     transform-origin: 50% 50% -50vw;
-    transform: rotateY('-90deg');
+    transform: rotateY(-180deg);
 }
 
 .section{
@@ -134,7 +134,12 @@ p{
 }
 
 .section.about{
-    transform: translateX(50vw) translateZ(-50vw) rotateY('90deg');
+    transform: translateX(50vw) translateZ(-50vw) rotateY(90deg);
+}
+
+.section.resume{
+    transform: translateZ(-100vw) rotateY(-180deg);
+    transform-origin: 50%;
 }
 
 .home, .about{
@@ -246,3 +251,28 @@ p{
     color: var(--main-color);
     margin-top: -1rem;
 }
+
+/* .about-info .btn{
+    padding: 1.2rem 4rem;
+}
+
+.resume{
+    padding-top: 2rem;
+    padding-bottom: 28rem;
+}
+
+.tab-box{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+tab-list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: .3rem solid var(--tab-list-color);
+    cursor: pointer;
+} */
