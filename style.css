@@ -199,7 +199,7 @@ p{
     box-shadow: 0 0 2rem var(--main-color);
     display: flex;
     justify-content: center;
-    /* overflow: hidden;
+    overflow: hidden;
 }
 
 .img-box img{
@@ -207,4 +207,4 @@ p{
     display: block;
     width: 85%;
     object-fit: cover;
-} */
+}
