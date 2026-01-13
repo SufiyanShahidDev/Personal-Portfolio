@@ -117,7 +117,7 @@ p{
     height: 100%;
     transform-style: preserve-3d;
     transform-origin: 50% 50% -50vw;
-    transform: rotateY(0deg);
+    transform: rotateY('-90deg');
 }
 
 .section{
@@ -127,6 +127,14 @@ p{
     background: var(--bg-color);
     padding: 0 10%;
     backface-visibility: hidden;
+}
+
+.section:nth-child(even){
+    background: var(--second-bg-color);
+}
+
+.section.about{
+    transform: translateX(50vw) translateZ(-50vw) rotateY('90deg');
 }
 
 .home{
