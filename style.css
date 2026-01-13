@@ -278,10 +278,10 @@ p{
     color: var(--tab-list-color);
 }
 
-/* .tab-list.resume-list.active{
+.tab-list.resume-list.active{
     border-color: var(--main-color);
     color: var(--main-color);
-} */
+}
 
 .resume-list:nth-child(2){
     justify-content: center;
