@@ -99,7 +99,7 @@ p{
     transition: 0.3s;
 }
 
-.nav-list li:hover .tooltip{
+.nav-list li:hover .tooltip, a:hover .tooltip{
     visibility: visible;
     opacity: 1;
 }
@@ -200,11 +200,17 @@ p{
     display: flex;
     justify-content: center;
     overflow: hidden;
+    transition: 1s;
+}
+
+.img-box.home-img:hover{
+    box-shadow: 0 0 8rem var(--main-color);
 }
 
 .img-box img{
     position: absolute;
     display: block;
     width: 85%;
+    top: 3rem;
     object-fit: cover;
 }
