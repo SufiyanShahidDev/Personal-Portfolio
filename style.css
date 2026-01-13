@@ -252,7 +252,7 @@ p{
     margin-top: -1rem;
 }
 
-/* .about-info .btn{
+.about-info .btn{
     padding: 1.2rem 4rem;
 }
 
@@ -275,4 +275,4 @@ tab-list{
     width: 100%;
     border-bottom: .3rem solid var(--tab-list-color);
     cursor: pointer;
-} */
+}
