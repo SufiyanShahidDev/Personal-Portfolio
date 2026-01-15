@@ -40,20 +40,20 @@
     color: var(--white-color);
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
     color: var(--white-color);
     overflow: hidden;
 }
 
-p{
+p {
     font-size: 1.6rem;
 }
 
-.nav{
+.nav {
     position: fixed;
     bottom: 2rem;
     left: 50%;
@@ -65,12 +65,12 @@ p{
     z-index: 100;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     justify-content: space-evenly;
 }
 
-.nav-list li{
+.nav-list li {
     position: relative;
     display: flex;
     font-size: 3rem;
@@ -78,11 +78,12 @@ p{
     transition: 0.3s;
 }
 
-.nav-list li:hover, .nav-list li.active{
+.nav-list li:hover,
+.nav-list li.active {
     color: var(--main-color);
 }
 
-.tooltip{
+.tooltip {
     position: absolute;
     top: -4rem;
     left: 50%;
@@ -99,19 +100,20 @@ p{
     transition: 0.3s;
 }
 
-.nav-list li:hover .tooltip, a:hover .tooltip{
+.nav-list li:hover .tooltip,
+a:hover .tooltip {
     visibility: visible;
     opacity: 1;
 }
 
-.container{
+.container {
     width: 100vw;
     height: 100vh;
     perspective: 1500px;
     perspective-origin: 50%;
 }
 
-.box{
+.box {
     position: relative;
     width: 100%;
     height: 100%;
@@ -120,7 +122,7 @@ p{
     transform: rotateY(-180deg);
 }
 
-.section{
+.section {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -129,45 +131,46 @@ p{
     backface-visibility: hidden;
 }
 
-.section:nth-child(even){
+.section:nth-child(even) {
     background: var(--second-bg-color);
 }
 
-.section.about{
+.section.about {
     transform: translateX(50vw) translateZ(-50vw) rotateY(90deg);
 }
 
-.section.resume{
+.section.resume {
     transform: translateZ(-100vw) rotateY(-180deg);
     transform-origin: 50%;
 }
 
-.home, .about{
+.home,
+.about {
     display: flex;
     align-items: center;
     gap: 5rem;
 }
 
-.home-info h1{
+.home-info h1 {
     font-size: 5.5rem;
     color: var(--main-color);
     line-height: 1;
 }
 
-.home-info h3{
+.home-info h3 {
     font-size: 3rem;
 }
 
-.desc{
+.desc {
     margin: 1rem 0 2rem;
 }
 
-.home-info .btn-sci{
+.home-info .btn-sci {
     display: flex;
     align-items: center;
 }
 
-.btn{
+.btn {
     display: inline-flex;
     padding: 1.2rem 3rem;
     background: var(--main-color);
@@ -178,15 +181,15 @@ p{
     font-weight: 600;
 }
 
-.btn:hover{
+.btn:hover {
     box-shadow: none;
 }
 
-.home-info .btn-sci .sci{
+.home-info .btn-sci .sci {
     margin-left: 2rem;
 }
 
-.home-info .btn-sci .sci a{
+.home-info .btn-sci .sci a {
     position: relative;
     display: inline-flex;
     padding: .8rem;
@@ -197,12 +200,12 @@ p{
     margin: 0 .8rem;
 }
 
-.home-info .btn-sci .sci a:hover{
+.home-info .btn-sci .sci a:hover {
     background: var(--main-color);
     color: var(--bg-color);
 }
 
-.img-box{
+.img-box {
     position: relative;
     width: 32vw;
     height: 32vw;
@@ -216,11 +219,11 @@ p{
     transition: 1s;
 }
 
-.img-box.home-img:hover{
+.img-box.home-img:hover {
     box-shadow: 0 0 8rem var(--main-color);
 }
 
-.img-box img{
+.img-box img {
     position: absolute;
     display: block;
     width: 85%;
@@ -228,40 +231,40 @@ p{
     object-fit: cover;
 }
 
-.img-box.about-img{
+.img-box.about-img {
     background: transparent;
     box-shadow: 0 0 2rem var(--main-color), inset 0 0 1rem var(--main-color);
 }
 
-.img-box.about-img img{
+.img-box.about-img img {
     z-index: 0;
 }
 
-.title{
+.title {
     font-size: 4rem;
     text-align: center;
 }
 
-.about-info .title{
+.about-info .title {
     text-align: left;
 }
 
-.about-info h3{
+.about-info h3 {
     font-size: 2.5rem;
     color: var(--main-color);
     margin-top: -1rem;
 }
 
-.about-info .btn{
+.about-info .btn {
     padding: 1.2rem 4rem;
 }
 
-.resume{
+.resume {
     padding-top: 2rem;
     padding-bottom: 28rem;
 }
 
-.tab-box{
+.tab-box {
     display: flex;
     width: 100%;
     height: 5rem;
@@ -269,7 +272,7 @@ p{
     margin-bottom: 2rem;
 }
 
-.tab-list{
+.tab-list {
     display: flex;
     align-items: center;
     width: 100%;
@@ -278,18 +281,34 @@ p{
     color: var(--tab-list-color);
 }
 
-.tab-list.resume-list.active{
+.tab-list.resume-list.active {
     border-color: var(--main-color);
     color: var(--main-color);
 }
 
-.resume-list:nth-child(2){
+.resume-list:nth-child(2) {
     justify-content: center;
 }
-.resume-list:nth-child(3){
+
+.resume-list:nth-child(3) {
     justify-content: flex-end;
 }
 
-.tab-list h3{
+.tab-list h3 {
     font-size: 2.5rem;
+}
+
+.tab-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.tab-grid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(.8);
 }
