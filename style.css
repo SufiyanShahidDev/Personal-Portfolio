@@ -313,9 +313,9 @@ a:hover .tooltip {
     transform: scale(.8);
 }
 
-.tab-grid.resume-box.active{
+/* .tab-grid.resume-box.active{
     visibility: visible;
     opacity: 1;
     transform: scale(1);
     transition: .5s;
-}
+} */
