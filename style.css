@@ -349,7 +349,7 @@ a:hover .tooltip {
     margin-top: 1rem;
 }
 
-/* .resume-box.skills{
+.resume-box.skills{
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
 
@@ -368,4 +368,4 @@ a:hover .tooltip {
 
 .resume-box.skills  .resume-item p{
     margin-top: 0;
-} */
+}
