@@ -348,3 +348,25 @@ a:hover .tooltip {
 .tab-item p{
     margin-top: 1rem;
 }
+
+.resume-box.skills{
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.resume-box.skills  .resume-item{
+    align-items: center;
+}
+
+.resume-box.skills  .resume-item i{
+    font-size: 8rem;
+    transition: .3s;
+}
+
+.resume-box.skills  .resume-item:hover{
+    color: var(--main-color);
+}
+
+
+.resume-box.skills  .resume-item p{
+    margin-top: 0;
+}
