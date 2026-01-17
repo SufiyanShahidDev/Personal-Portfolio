@@ -345,7 +345,7 @@ a:hover .tooltip {
     font-weight: 400;
 }
 
-    /* .resume-item h4:nth-child(3){
+    .resume-item h4:nth-child(3){
         position: relative;
         color: var(--white-color);
         margin-left: 2rem;
@@ -361,7 +361,7 @@ a:hover .tooltip {
         height: 1rem;
         background: var(--main-color);
         border-radius: 50%;
-    } */
+    }
 
 .tab-item p{
     margin-top: 1rem;
