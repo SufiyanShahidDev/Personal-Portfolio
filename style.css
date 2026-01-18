@@ -119,7 +119,7 @@ a:hover .tooltip {
     height: 100%;
     transform-style: preserve-3d;
     transform-origin: 50% 50% -50vw;
-    transform: rotateY(-180deg);
+    transform: rotateY(-270deg);
 }
 
 .section {
@@ -142,6 +142,10 @@ a:hover .tooltip {
 .section.resume {
     transform: translateZ(-100vw) rotateY(-180deg);
     transform-origin: 50%;
+}
+
+.section.portfolio{
+    transform: translateX(-50vw) translateZ(-50vw) rotateY(-90deg);
 }
 
 .home,
@@ -259,7 +263,7 @@ a:hover .tooltip {
     padding: 1.2rem 4rem;
 }
 
-.resume {
+.resume, .portfolio {
     padding-top: 2rem;
     padding-bottom: 28rem;
 }
@@ -281,7 +285,7 @@ a:hover .tooltip {
     color: var(--tab-list-color);
 }
 
-.tab-list.resume-list.active {
+.tab-list.resume-list.active, .tab-list.portfolio-list.active {
     border-color: var(--main-color);
     color: var(--main-color);
 }
@@ -387,4 +391,8 @@ a:hover .tooltip {
 
 .resume-box.skills .resume-item p {
     margin-top: 0;
+}
+
+.portfolio-list:nth-child(2){
+    justify-content: flex-end;
 }
