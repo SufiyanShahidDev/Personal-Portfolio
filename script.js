@@ -19,12 +19,12 @@ resumeLists.forEach((list, idx) => {
 
 // portfolio section when clicking tab-list
 
-// portfolioLists.forEach((list, idx) => {
-//     list.addEventListener('click', () => {
-//         document.querySelector('.portfolio-list.active').classList.remove('active')
-//         list.classList.add('active')
-//     })
+portfolioLists.forEach((list, idx) => {
+    list.addEventListener('click', () => {
+        document.querySelector('.portfolio-list.active').classList.remove('active')
+        list.classList.add('active')
+    })
 
-// })
+})
 
 // visibility for contact section when reloading (cube reloading animation)
