@@ -25,9 +25,9 @@ portfolioLists.forEach((list, idx) => {
         document.querySelector('.portfolio-list.active').classList.remove('active')
         list.classList.add('active')
 
-        document.querySelector('.portfolio-box.active').classList.remove('active')
-        portfolioBoxs[idx].classList.add('active')
-    })
+    //     document.querySelector('.portfolio-box.active').classList.remove('active')
+    //     portfolioBoxs[idx].classList.add('active')
+    // })
 
 })
 
