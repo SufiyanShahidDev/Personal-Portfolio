@@ -441,7 +441,7 @@ a:hover .tooltip {
     transform: scale(1.2);
 }
 
-/* .portfolio-item .work-info{
+.portfolio-item .work-info{
     z-index: 1;
 }
 
@@ -454,4 +454,4 @@ a:hover .tooltip {
     border-bottom: .1rem solid var(--white-color);
     padding-bottom: 1rem;
     margin-bottom: 1rem;
-} */
+}
