@@ -397,7 +397,7 @@ a:hover .tooltip {
     justify-content: flex-end;
 }
 
-/* .portfolio-box.work .portfolio-item{
+.portfolio-box.work .portfolio-item{
     position: relative;
 }
 
@@ -433,4 +433,4 @@ a:hover .tooltip {
 
 .portfolio-item:hover .work-img img{
     transform: scale(1.2);
-} */
+}
