@@ -149,6 +149,10 @@ a:hover .tooltip,
     transform: translateX(-50vw) translateZ(-50vw) rotateY(-90deg);
 }
 
+/* .section.contact{
+    visibility: hidden;
+} */
+
 .home,
 .about {
     display: flex;
