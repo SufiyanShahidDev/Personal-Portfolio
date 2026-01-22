@@ -485,3 +485,19 @@ a:hover .tooltip,
 .portfolio-item .work-icon a:nth-child(1) i {
     transform: rotate(135deg);
 }
+
+/* .portfolio-item .service-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.portfolio-item .service-icon .icon{
+    font-size: 5rem;
+    margin-left: -.3rem;
+}
+
+.portfolio-item .service-icon .icon a i{
+    transform: rotate(-135deg);
+} */
