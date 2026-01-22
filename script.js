@@ -8,14 +8,14 @@ const portfolioBoxs = document.querySelectorAll('.portfolio-box')
 
 
 // navbar actions and all section actions along with cube rotation when navbar is clicked
-// navs.forEach((nav, idx) => {
-//     nav.addEventListener('click', () => {
-//         document.querySelector('.nav-list li.active').classList.remove('active')
-//         nav.classList.add('active')
+navs.forEach((nav, idx) => {
+    nav.addEventListener('click', () => {
+        document.querySelector('.nav-list li.active').classList.remove('active')
+        nav.classList.add('active')
 
-//         cube.style.transform = `rotateY(${idx * -90}deg)`;
-//     })
-// })
+        cube.style.transform = `rotateY(${idx * -90}deg)`;
+    })
+})
 
 // resume section when clicking tab-list
 resumeLists.forEach((list, idx) => {
