@@ -524,7 +524,7 @@ a:hover .tooltip,
     color: var(--main-color);
 }
 
-/* .contact{
+.contact{
     padding-top: 2rem;
     padding-bottom: 18rem;
 }
@@ -541,4 +541,4 @@ a:hover .tooltip,
     justify-content: center;
     align-items: center;
     width: 70rem;
-} */
+}
