@@ -1,3 +1,6 @@
+// const navs = document.querySelectorAll('.nav-list li')
+
+
 const resumeLists = document.querySelectorAll('.resume-list')
 const resumeBoxs = document.querySelectorAll('.resume-box')
 const portfolioLists = document.querySelectorAll('.portfolio-list')
