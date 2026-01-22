@@ -493,7 +493,7 @@ a:hover .tooltip,
     margin-bottom: .5rem;
 }
 
-/* .portfolio-item .service-icon .icon{
+.portfolio-item .service-icon .icon{
     font-size: 5rem;
     margin-left: -.3rem;
     transition: .3s;
@@ -522,4 +522,4 @@ a:hover .tooltip,
 
 .portfolio-box.service .portfolio-item:hover h4 {
     color: var(--main-color);
-} */
+}
