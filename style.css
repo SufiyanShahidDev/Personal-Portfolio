@@ -543,8 +543,8 @@ a:hover .tooltip,
     width: 70rem;
 }
 
-/* .contact-form .field-box {
+.contact-form .field-box {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-} */
+}
