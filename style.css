@@ -565,7 +565,7 @@ a:hover .tooltip,
     color: var(--white-color);
 }
 
-/* .contact-form .field-box textarea {
+.contact-form .field-box textarea {
     height: 20rem;
     resize: none;
 }
@@ -576,4 +576,4 @@ a:hover .tooltip,
 
 .contact-form .contact-btn .btn{
     cursor: pointer;
-} */
+}
