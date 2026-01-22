@@ -493,11 +493,33 @@ a:hover .tooltip,
     margin-bottom: .5rem;
 }
 
-.portfolio-item .service-icon .icon{
+/* .portfolio-item .service-icon .icon{
     font-size: 5rem;
     margin-left: -.3rem;
+    transition: .3s;
 }
 
-.portfolio-item .service-icon .icon a i{
-    transform: rotate(-135deg);
+.portfolio-item:hover .service-icon .icon {
+    color: var(--main-color);
 }
+
+.portfolio-item:hover .service-icon a{
+    background: var(--main-color);
+}
+
+.service-icon a i {
+    transform: rotate(-135deg);
+    transition: .3s;
+}
+
+.service-icon a:hover i{
+    transform: rotate(-180deg);
+}
+
+.portfolio-box.service .portfolio-item h4 {
+    transition: .3s;
+}
+
+.portfolio-box.service .portfolio-item:hover h4 {
+    color: var(--main-color);
+} */
