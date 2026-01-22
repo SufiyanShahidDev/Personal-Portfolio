@@ -542,9 +542,25 @@ a:hover .tooltip,
     align-items: center;
     width: 70rem;
 }
+/* 
+.contact-form h3{
+    font-size: 3rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
 
 .contact-form .field-box {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 }
+
+.contact-form .field-box input,
+.contact-form .field-box textarea{
+    flex: 1 1 30rem;
+    padding: 2rem;
+    background: var(--third-bg-color);
+    border-radius: .6rem;
+    font-size: 1.6rem;
+    color: var(--white-color);
+} */
