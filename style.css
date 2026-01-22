@@ -486,7 +486,7 @@ a:hover .tooltip,
     transform: rotate(135deg);
 }
 
-/* .portfolio-item .service-icon{
+.portfolio-item .service-icon{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -500,4 +500,4 @@ a:hover .tooltip,
 
 .portfolio-item .service-icon .icon a i{
     transform: rotate(-135deg);
-} */
+}
