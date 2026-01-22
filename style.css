@@ -120,7 +120,7 @@ a:hover .tooltip,
     height: 100%;
     transform-style: preserve-3d;
     transform-origin: 50% 50% -50vw;
-    transform: rotateY(-270deg);
+    transform: rotateY(0deg);
 }
 
 .section {
@@ -523,3 +523,22 @@ a:hover .tooltip,
 .portfolio-box.service .portfolio-item:hover h4 {
     color: var(--main-color);
 }
+
+/* .contact{
+    padding-top: 2rem;
+    padding-bottom: 18rem;
+}
+
+.contact-wrapper{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+} */
