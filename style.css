@@ -542,3 +542,9 @@ a:hover .tooltip,
     align-items: center;
     width: 70rem;
 }
+
+/* .contact-form .field-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+} */
