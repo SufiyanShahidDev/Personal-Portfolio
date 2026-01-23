@@ -655,7 +655,7 @@ a:hover .tooltip,
     }
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .resume,
     .portfolio {
         padding-top: 1rem;
@@ -669,4 +669,4 @@ a:hover .tooltip,
     .contact{
         padding-top: 1rem;
     }
-} */
+}
