@@ -64,7 +64,7 @@ p {
     border-radius: 5rem;
     z-index: 100;
     animation: animate-nav 1s ease-in-out backwards;
-    /* animation-delay: 4s;
+    animation-delay: 4s;
 }
 
 @keyframes animate-nav {
@@ -76,7 +76,7 @@ p {
     100% {
         visibility: visible;
         opacity: 1;
-    } */
+    }
 }
 
 .nav-list {
