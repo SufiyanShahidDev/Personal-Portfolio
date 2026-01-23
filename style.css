@@ -150,20 +150,20 @@ a:hover .tooltip,
     transform: translateX(-50vw) translateZ(-50vw) rotateY(-90deg);
 }
 
-.section.contact{
+.section.contact {
     visibility: hidden;
     transition-delay: .5s;
 }
 
-.section.contact.active{
+.section.contact.active {
     visibility: visible;
 }
 
-.section.contact.action-contact{
+.section.contact.action-contact {
     transition-delay: 1.5s;
 }
 
-.section.contact.action-contact.active{
+.section.contact.action-contact.active {
     transition-delay: 0s;
 }
 
@@ -504,14 +504,14 @@ a:hover .tooltip,
     transform: rotate(135deg);
 }
 
-.portfolio-item .service-icon{
+.portfolio-item .service-icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: .5rem;
 }
 
-.portfolio-item .service-icon .icon{
+.portfolio-item .service-icon .icon {
     font-size: 5rem;
     margin-left: -.3rem;
     transition: .3s;
@@ -521,7 +521,7 @@ a:hover .tooltip,
     color: var(--main-color);
 }
 
-.portfolio-item:hover .service-icon a{
+.portfolio-item:hover .service-icon a {
     background: var(--main-color);
 }
 
@@ -530,7 +530,7 @@ a:hover .tooltip,
     transition: .3s;
 }
 
-.service-icon a:hover i{
+.service-icon a:hover i {
     transform: rotate(-180deg);
 }
 
@@ -542,18 +542,18 @@ a:hover .tooltip,
     color: var(--main-color);
 }
 
-.contact{
+.contact {
     padding-top: 2rem;
     padding-bottom: 18rem;
 }
 
-.contact-wrapper{
+.contact-wrapper {
     display: flex;
     justify-content: center;
     height: 100%;
 }
 
-.contact-form{
+.contact-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -561,7 +561,7 @@ a:hover .tooltip,
     width: 70rem;
 }
 
-.contact-form h3{
+.contact-form h3 {
     font-size: 3rem;
     color: var(--main-color);
     margin-bottom: 1rem;
@@ -574,7 +574,7 @@ a:hover .tooltip,
 }
 
 .contact-form .field-box input,
-.contact-form .field-box textarea{
+.contact-form .field-box textarea {
     flex: 1 1 30rem;
     padding: 2rem;
     background: var(--third-bg-color);
@@ -588,22 +588,22 @@ a:hover .tooltip,
     resize: none;
 }
 
-.contact-form .contact-btn{
+.contact-form .contact-btn {
     margin-top: 2rem;
 }
 
-.contact-form .contact-btn .btn{
+.contact-form .contact-btn .btn {
     cursor: pointer;
 }
 
 @media screen and (max-width: 1200px) {
-    html{
+    html {
         font-size: 55%;
     }
 }
 
 @media screen and (max-width: 992px) {
-    .section{
+    .section {
         padding: 0 4%;
     }
 
@@ -640,13 +640,13 @@ a:hover .tooltip,
         flex-direction: column;
     }
 
-    .img-box{
+    .img-box {
         width: 35rem;
         height: 35rem;
     }
 
     .resume,
-    .portfolio{
+    .portfolio {
         padding-bottom: 25rem;
     }
 
@@ -655,3 +655,18 @@ a:hover .tooltip,
     }
 }
 
+/* @media screen and (max-width: 600px) {
+    .resume,
+    .portfolio {
+        padding-top: 1rem;
+        padding-bottom: 22rem;
+    }
+
+    .tab-box{
+        margin-top: 1rem;
+    }
+
+    .contact{
+        padding-top: 1rem;
+    }
+} */
