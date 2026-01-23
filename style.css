@@ -612,6 +612,29 @@ a:hover .tooltip,
         padding-top: 1.5rem;
         padding-bottom: 27rem;
     }
-
-    
+/* 
+    .contact {
+        padding-top: 1.5rem;
+        padding-bottom: 18rem;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .nav {
+        bottom: 0;
+    }
+
+    .home,
+    .about {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 2rem;
+        padding-bottom: 6rem;
+    }
+
+
+} */
