@@ -59,6 +59,6 @@ portfolioLists.forEach((list, idx) => {
 
 // visibility for contact section when reloading (cube reloading animation)
 
-// setTimeout(() => {
-//     sections[4].classList.remove('active')
-// }, 1500)
+setTimeout(() => {
+    sections[4].classList.remove('active')
+}, 1500)
