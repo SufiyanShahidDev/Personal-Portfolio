@@ -159,13 +159,13 @@ a:hover .tooltip,
     visibility: visible;
 }
 
-/* .section.contact.action-contact{
+.section.contact.action-contact{
     transition-delay: 1.5s;
 }
 
 .section.contact.action-contact.active{
     transition-delay: 0s;
-} */
+}
 
 .home,
 .about {
