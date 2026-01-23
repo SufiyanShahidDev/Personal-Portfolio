@@ -595,3 +595,23 @@ a:hover .tooltip,
 .contact-form .contact-btn .btn{
     cursor: pointer;
 }
+/* 
+@media screen and (max-width: 1200px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section{
+        padding: 0 4%;
+    }
+
+    .resume,
+    .portfolio {
+        padding-top: 1.5rem;
+        padding-bottom: 27rem;
+    }
+
+    
+} */
