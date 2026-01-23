@@ -122,7 +122,18 @@ a:hover .tooltip,
     transform-origin: 50% 50% -50vw;
     transform: rotateY(0deg);
     transition: 2s;
+    /* animation: animate-cube 4s ease-in-out backwards;
 }
+
+@keyframes animate-cube {
+    0% {
+        transform: scale(0) rotateY(-360deg);
+    }
+
+    100% {
+        transform: scale(1) rotateY(0deg);
+    }
+} */
 
 .section {
     position: absolute;
