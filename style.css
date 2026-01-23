@@ -690,4 +690,18 @@ a:hover .tooltip,
     .home-info .btn-sci{
         flex-direction: column-reverse;
     }
+/* 
+    .home-info .btn-sci .sci{
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .img-box{
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .about-info .title {
+        text-align: center;
+    } */
 }
