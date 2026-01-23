@@ -1,5 +1,6 @@
 const navs = document.querySelectorAll('.nav-list li')
 const cube = document.querySelector('.box')
+const sections = document.querySelectorAll('.section')
 
 const resumeLists = document.querySelectorAll('.resume-list')
 const resumeBoxs = document.querySelectorAll('.resume-box')
@@ -14,6 +15,9 @@ navs.forEach((nav, idx) => {
         nav.classList.add('active')
 
         cube.style.transform = `rotateY(${idx * -90}deg)`;
+
+        // document.querySelector('.section.active').classList.remove('active')
+        // sections[idx].classList.add('active')
     })
 })
 
