@@ -671,3 +671,23 @@ a:hover .tooltip,
         padding-top: 1rem;
     }
 }
+
+/* @media screen and (max-width: 400px) {
+    .nav {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .home-info,
+    .about-info{
+        align-items: center;
+    }
+
+    .home-info h1{
+        font-size: 5rem;
+    }
+
+    .home-info .btn-sci{
+        flex-direction: column-reverse;
+    }
+} */
