@@ -655,18 +655,19 @@ a:hover .tooltip,
     }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
+
     .resume,
     .portfolio {
         padding-top: 1rem;
         padding-bottom: 22rem;
     }
 
-    .tab-box{
+    .tab-box {
         margin-top: 1rem;
     }
 
-    .contact{
+    .contact {
         padding-top: 1rem;
     }
-}
+} */
