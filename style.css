@@ -690,7 +690,7 @@ a:hover .tooltip,
     .home-info .btn-sci{
         flex-direction: column-reverse;
     }
-/* 
+
     .home-info .btn-sci .sci{
         margin-left: 0;
         margin-bottom: 2rem;
@@ -703,5 +703,5 @@ a:hover .tooltip,
 
     .about-info .title {
         text-align: center;
-    } */
+    }
 }
