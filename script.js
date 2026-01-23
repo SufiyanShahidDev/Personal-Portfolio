@@ -19,14 +19,14 @@ navs.forEach((nav, idx) => {
         document.querySelector('.section.active').classList.remove('active')
         sections[idx].classList.add('active')
 
-    //     const array = Array.from(sections)
-    //     const arrSecs = array.slice(1, -1)
-    //     arrSecs.forEach(arrSecs => {
-    //         if(arrSecs.classList.contains('active')) {
-    //             sections[4].classList.add('action-contact')
-    //         }
-    //     })
-    // })
+        const array = Array.from(sections)
+        const arrSecs = array.slice(1, -1)
+        arrSecs.forEach(arrSecs => {
+            if(arrSecs.classList.contains('active')) {
+                sections[4].classList.add('action-contact')
+            }
+        })
+    })
 })
 
 // resume section when clicking tab-list
