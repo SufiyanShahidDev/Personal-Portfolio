@@ -121,6 +121,7 @@ a:hover .tooltip,
     transform-style: preserve-3d;
     transform-origin: 50% 50% -50vw;
     transform: rotateY(0deg);
+    transition: 2s;
 }
 
 .section {
