@@ -150,14 +150,14 @@ a:hover .tooltip,
     transform: translateX(-50vw) translateZ(-50vw) rotateY(-90deg);
 }
 
-/* .section.contact{
+.section.contact{
     visibility: hidden;
     transition-delay: .5s;
 }
 
 .section.contact.active{
     visibility: visible;
-} */
+}
 
 .home,
 .about {
