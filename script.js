@@ -26,6 +26,10 @@ navs.forEach((nav, idx) => {
                 sections[4].classList.add('action-contact')
             }
         })
+
+        // if(sections[0].classList.contains('active')) {
+        //     sections[4].classList.remove('action-contact')
+        // }
     })
 })
 
