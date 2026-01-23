@@ -22,7 +22,7 @@ navs.forEach((nav, idx) => {
         const array = Array.from(sections)
         const arrSecs = array.slice(1, -1)
         arrSecs.forEach(arrSecs => {
-            // if (arrSecs.classList.contains('active')) {
+            if (arrSecs.classList.contains('active')) {
                 sections[4].classList.add('action-contact')
             }
         })
