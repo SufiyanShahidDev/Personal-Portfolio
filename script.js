@@ -16,8 +16,8 @@ navs.forEach((nav, idx) => {
 
         cube.style.transform = `rotateY(${idx * -90}deg)`;
 
-        // document.querySelector('.section.active').classList.remove('active')
-        // sections[idx].classList.add('active')
+        document.querySelector('.section.active').classList.remove('active')
+        sections[idx].classList.add('active')
     })
 })
 
