@@ -36,11 +36,11 @@ navs.forEach((nav, idx) => {
 // resume section when clicking tab-list
 resumeLists.forEach((list, idx) => {
     list.addEventListener('click', () => {
-        document.querySelector('.resume-list.active').classList.remove('active')
-        list.classList.add('active')
+        document.querySelector('.resume-list.active').classList.remove('active');
+        list.classList.add('active');
 
-        document.querySelector('.resume-box.active').classList.remove('active')
-        resumeBoxs[idx].classList.add('active')
+        document.querySelector('.resume-box.active').classList.remove('active');
+        resumeBoxs[idx].classList.add('active');
     })
 })
 
