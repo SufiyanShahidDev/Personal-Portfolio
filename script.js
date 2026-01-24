@@ -81,7 +81,6 @@ let phone = document.getElementById("phone-number");
 let subject = document.getElementById("email-subject");
 let message = document.getElementById("message");
 
-// Select the submit button from the form (no id in your markup)
 let sendBtn = document.querySelector(".contact-form .btn");
 
 // Load existing contacts from localStorage or start empty
