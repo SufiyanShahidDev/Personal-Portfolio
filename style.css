@@ -746,3 +746,24 @@ a:hover .tooltip,
         font-size: 2rem;
     }
 }
+/* 
+.input-error {
+    outline: none;
+    border-color: #d9534f;
+    box-shadow: 0 0 0 3px rgba(217,83,79,0.07);
+}
+
+.error-message {
+    font-size: 0.85rem;
+    color: #d9534f;
+    margin-top: 6px;
+}
+
+.form-success {
+    background: #e9f7ef;
+    color: #2b7a3a;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin-top: 12px;
+    font-size: 0.95rem;
+} */
