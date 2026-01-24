@@ -93,12 +93,10 @@ const contactHandler = function (e) {
         if (typeof Swal !== "undefined" && Swal.fire) {
             Swal.fire({ icon: icon, title: title, text: text });
         } else {
-            // fallback: simple alert with title+message
             alert(title + "\n\n" + text);
         }
     };
 
-    // validation rules
     const nameMin = 3;
     const messageMin = 10;
     const phoneMinDigits = 10;
