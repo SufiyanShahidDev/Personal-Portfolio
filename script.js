@@ -137,7 +137,6 @@ const contactHandler = function (e) {
         return;
     }
 
-    // Message
     if (messageVal.length < messageMin) {
         sweetAlert("error", "Message Too Short", "Message must be at least " + messageMin + " characters.");
         if (message) message.focus();
