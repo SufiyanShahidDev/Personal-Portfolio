@@ -168,7 +168,6 @@ const contactHandler = function (e) {
     if (message) message.value = "";
 };
 
-// Attach handler to the button if available, otherwise attach to the form submit event
 if (sendBtn) {
     sendBtn.addEventListener("click", contactHandler);
 } else {
