@@ -143,7 +143,6 @@ const contactHandler = function (e) {
         return;
     }
 
-    // build contact object
     const contactData = {
         fullName: nameVal,
         email: emailVal,
