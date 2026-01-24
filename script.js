@@ -86,7 +86,7 @@ let sendBtn = document.querySelector(".contact-form .btn");
 let contactsArr = JSON.parse(localStorage.getItem("contacts") || "[]");
 
 const contactHandler = function (e) {
-    // prevent default form submit
+
     if (e && e.preventDefault) e.preventDefault();
 
     // small wrapper to show alerts (uses Swal if available, else fallback to alert)
