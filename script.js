@@ -131,7 +131,6 @@ const contactHandler = function (e) {
         return;
     }
 
-    // Subject
     if (subjectVal === "") {
         sweetAlert("error", "Missing Subject", "Email Subject cannot be empty.");
         if (subject) subject.focus();
