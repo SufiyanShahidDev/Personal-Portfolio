@@ -103,7 +103,7 @@ const contactHandler = function (e) {
     const phoneMaxDigits = 15;
 
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    // allow common phone characters but count digits only
+    
     const getDigits = function (s) { return (s || "").replace(/\D/g, ""); };
 
     // get trimmed values
