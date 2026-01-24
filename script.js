@@ -112,7 +112,6 @@ const contactHandler = function (e) {
     const subjectVal = (subject && subject.value || "").trim();
     const messageVal = (message && message.value || "").trim();
 
-    // Name
     if (nameVal.length < nameMin) {
         sweetAlert("error", "Invalid Name", "Full Name must be at least " + nameMin + " characters.");
         if (fullname) fullname.focus();
