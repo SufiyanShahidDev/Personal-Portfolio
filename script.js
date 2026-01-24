@@ -161,7 +161,6 @@ const contactHandler = function (e) {
 
     sweetAlert("success", "Message Sent", "Your message was validated and saved to localStorage.");
 
-    // reset form fields
     if (fullname) fullname.value = "";
     if (email) email.value = "";
     if (phone) phone.value = "";
