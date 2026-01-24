@@ -63,15 +63,15 @@ setTimeout(() => {
     sections[4].classList.remove('active')
 }, 1500)
 
-// // sweetAlert
+// sweetAlert
 
-// const sweetAlert = (error, title, message) => {
-//     Swal.fire({
-//         icon: error,
-//         title: title,
-//         text: message,
-//     });
-// }
+const sweetAlert = (error, title, message) => {
+    Swal.fire({
+        icon: error,
+        title: title,
+        text: message,
+    });
+}
 
 // form validation
 
