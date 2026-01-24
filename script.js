@@ -89,7 +89,6 @@ const contactHandler = function (e) {
 
     if (e && e.preventDefault) e.preventDefault();
 
-    // small wrapper to show alerts (uses Swal if available, else fallback to alert)
     const sweetAlert = function (icon, title, text) {
         if (typeof Swal !== "undefined" && Swal.fire) {
             Swal.fire({ icon: icon, title: title, text: text });
