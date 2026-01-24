@@ -171,7 +171,6 @@ const contactHandler = function (e) {
 if (sendBtn) {
     sendBtn.addEventListener("click", contactHandler);
 } else {
-    // fallback: attach to form submit
     const formEl = document.querySelector(".contact-form");
     if (formEl) formEl.addEventListener("submit", contactHandler);
 }
