@@ -118,7 +118,6 @@ const contactHandler = function (e) {
         return;
     }
 
-    // Email
     if (!emailRegex.test(emailVal)) {
         sweetAlert("error", "Invalid Email", "Please enter a valid email address.");
         if (email) email.focus();
