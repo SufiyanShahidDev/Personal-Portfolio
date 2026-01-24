@@ -83,7 +83,6 @@ let message = document.getElementById("message");
 
 let sendBtn = document.querySelector(".contact-form .btn");
 
-// Load existing contacts from localStorage or start empty
 let contactsArr = JSON.parse(localStorage.getItem("contacts") || "[]");
 
 const contactHandler = function (e) {
