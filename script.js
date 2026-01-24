@@ -159,7 +159,6 @@ const contactHandler = function (e) {
     console.log("Contact saved. Current contacts array:");
     console.table(contactsArr);
 
-    // success feedback
     sweetAlert("success", "Message Sent", "Your message was validated and saved to localStorage.");
 
     // reset form fields
