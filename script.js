@@ -75,10 +75,6 @@ const sweetAlert = (error, title, message) => {
 
 // form validation
 
-/* Contact form validation + console logging
-   Paste this before </body> or in your main JS file.
-*/
-
 let fullname = document.getElementById("fullname");
 let email = document.getElementById("email");
 let phone = document.getElementById("phone-number");
