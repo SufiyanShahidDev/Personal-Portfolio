@@ -64,5 +64,3 @@ setTimeout(() => {
 }, 1500)
 
 // form validation
-
-
