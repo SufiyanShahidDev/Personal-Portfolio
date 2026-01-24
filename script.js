@@ -153,7 +153,6 @@ const contactHandler = function (e) {
         submittedAt: new Date().toISOString()
     };
 
-    // push, persist and log
     contactsArr.push(contactData);
     localStorage.setItem("contacts", JSON.stringify(contactsArr));
 
