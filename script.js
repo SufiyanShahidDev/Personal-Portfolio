@@ -23,12 +23,12 @@ navs.forEach((nav, idx) => {
         const arrSecs = array.slice(1, -1)
         arrSecs.forEach(arrSecs => {
             if (arrSecs.classList.contains('active')) {
-                sections[4].classList.add('action-contact')
+                sections[4].classList.add('action-contact');
             }
         })
 
         if (sections[0].classList.contains('active')) {
-            sections[4].classList.remove('action-contact')
+            sections[4].classList.remove('action-contact');
         }
     })
 })
