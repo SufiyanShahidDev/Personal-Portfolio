@@ -124,7 +124,6 @@ const contactHandler = function (e) {
         return;
     }
 
-    // Phone (digits count between min and max)
     const phoneDigits = getDigits(phoneVal);
     if (phoneDigits.length < phoneMinDigits || phoneDigits.length > phoneMaxDigits) {
         sweetAlert("error", "Invalid Phone", "Phone number must contain " + phoneMinDigits + "–" + phoneMaxDigits + " digits.");
