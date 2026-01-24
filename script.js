@@ -103,10 +103,9 @@ const contactHandler = function (e) {
     const phoneMaxDigits = 15;
 
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    
+
     const getDigits = function (s) { return (s || "").replace(/\D/g, ""); };
 
-    // get trimmed values
     const nameVal = (fullname && fullname.value || "").trim();
     const emailVal = (email && email.value || "").trim();
     const phoneVal = (phone && phone.value || "").trim();
