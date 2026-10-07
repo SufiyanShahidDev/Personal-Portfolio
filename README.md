@@ -1,16 +1,48 @@
-# React + Vite
+# Sufiyan Shahid Portfolio - React + Tailwind + Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React conversion of the original HTML/CSS/JavaScript portfolio.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- Tailwind CSS
+- React Toastify
+- Firebase Firestore
 
-## React Compiler
+## Run the project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Firebase setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Create a Firebase project.
+2. Open **Project settings > Your apps > Web app** and copy the Firebase configuration values.
+3. Create a `.env` file in the project root using `.env.example` as the template.
+4. Paste your Firebase values into the `VITE_FIREBASE_*` variables.
+5. In Firebase Console, create a **Cloud Firestore Database**.
+6. Publish the rules from `firestore.rules`.
+7. Run the app again with `npm run dev`.
+
+The Contact form saves messages into the Firestore collection:
+
+`feedback`
+
+The form validates:
+
+- Full name: minimum 3 characters
+- Email: valid email format
+- Phone: 10 to 15 digits
+- Subject: required
+- Message: minimum 10 characters
+
+## Dynamic content
+
+Portfolio content is stored in:
+
+`src/data/portfolioData.js`
+
+You can update profile information, navigation labels, skills, education, projects, services, and social links from that file without rewriting the UI components.
