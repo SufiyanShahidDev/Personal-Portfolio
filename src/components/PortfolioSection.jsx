@@ -3,6 +3,7 @@ import { portfolioData } from "../data/portfolioData";
 
 function PortfolioSection() {
   const [activeTab, setActiveTab] = useState(0);
+  const [activeProject, setActiveProject] = useState(null);
   const { projects, services } = portfolioData;
 
   return (
@@ -28,13 +29,23 @@ function PortfolioSection() {
 
       {activeTab === 0 && (
         <div className="tab-grid-active grid max-h-[calc(100vh-20rem)] grid-cols-[repeat(auto-fit,minmax(30rem,1fr))] gap-8 overflow-y-auto overflow-x-hidden">
-          {projects.map((project) => (
-            <article key={project.image} className="portfolio-project group relative overflow-hidden rounded-[6.4px] bg-[#2d3542] p-8">
+          {projects.map((project, index) => (
+            <article
+              key={`${project.image}-${index}`}
+              onClick={(event) => {
+                if (window.matchMedia("(hover: none)").matches && !event.target.closest("a")) {
+                  setActiveProject(activeProject === index ? null : index);
+                }
+              }}
+              className={`portfolio-project group relative overflow-hidden rounded-[6.4px] bg-[#2d3542] p-8 ${
+                activeProject === index ? "is-project-active" : ""
+              }`}
+            >
               <div className="absolute inset-0 overflow-hidden rounded-lg">
                 <img src={project.image} alt={project.title} className="h-full w-full object-cover transition duration-300 group-hover:scale-125" />
               </div>
-              <div className="absolute inset-0 bg-[#2d3542] opacity-0 transition duration-300 group-hover:opacity-90" />
-              <div className="relative z-10 flex h-full invisible flex-col justify-center opacity-0 transition duration-300 group-hover:visible group-hover:opacity-100">
+              <div className="portfolio-project-backdrop absolute inset-0 bg-[#2d3542] opacity-0 transition duration-300 group-hover:opacity-90" />
+              <div className="portfolio-project-details relative z-10 flex h-full invisible flex-col justify-center opacity-0 transition duration-300 group-hover:visible group-hover:opacity-100">
                 <h4 className="text-[2.3rem] font-semibold leading-none">{project.title}</h4>
                 <p className="my-4 text-[1.6rem] leading-relaxed">{project.description}</p>
                 <div className="mb-4 border-b border-white pb-4 text-[#00eeff]">

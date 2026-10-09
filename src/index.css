@@ -162,3 +162,23 @@ p {
     font-size: 40%;
   }
 }
+
+@media (hover: none) {
+  .portfolio-project:not(.is-project-active) .portfolio-project-backdrop {
+    opacity: 0;
+  }
+
+  .portfolio-project.is-project-active .portfolio-project-backdrop {
+    opacity: 0.9;
+  }
+
+  .portfolio-project:not(.is-project-active) .portfolio-project-details {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .portfolio-project.is-project-active .portfolio-project-details {
+    visibility: visible;
+    opacity: 1;
+  }
+}
