@@ -6,9 +6,9 @@ function HomeSection() {
   return (
     <section className="portfolio-section portfolio-home flex items-center gap-20 bg-[#171f2b] max-[768px]:flex-col-reverse max-[768px]:justify-center max-[768px]:gap-8 max-[768px]:pb-24 max-[400px]:text-center">
       <div className="min-w-0 flex-1">
-        <marquee behavior="scroll" direction="left" scrollamount="5" className="mb-2 block text-[1.6rem]">
+        {/* <marquee behavior="scroll" direction="left" scrollamount="5" className="mb-2 block text-[1.6rem]">
           {portfolioData.maintenanceMessage}
-        </marquee>
+        </marquee> */}
         <h3 className="text-[3rem] font-extrabold max-[400px]:text-[2.4rem]">{profile.greeting}</h3>
         <h1 className="text-[5.5rem] font-black leading-none text-[#00eeff] max-[400px]:text-[3.8rem]">{profile.name}</h1>
         <h3 className="text-[3rem] font-extrabold max-[400px]:text-[2.4rem]">{profile.role}</h3>

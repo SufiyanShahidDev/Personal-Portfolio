@@ -8,9 +8,9 @@ function PortfolioSection() {
 
   return (
     <section className="portfolio-section portfolio-projects bg-[#1f2733] px-[10%] py-8 pb-[28rem] max-[992px]:px-[4%] max-[992px]:pb-[27rem] max-[768px]:pb-[25rem] max-[600px]:pb-[22rem] max-[600px]:pt-4">
-      <marquee behavior="scroll" direction="left" scrollamount="5" className="block text-[1.6rem]">
+      {/* <marquee behavior="scroll" direction="left" scrollamount="5" className="block text-[1.6rem]">
         {portfolioData.maintenanceMessage}
-      </marquee>
+      </marquee> */}
       <h2 className="text-center text-[4rem] font-semibold">Portfolio</h2>
 
       <div className="mt-4 mb-8 flex h-20 w-full">
