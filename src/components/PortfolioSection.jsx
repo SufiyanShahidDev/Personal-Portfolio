@@ -58,7 +58,7 @@ function PortfolioSection() {
                     rel="noreferrer"
                     className="group/link relative mr-4 inline-flex rounded-full bg-white p-4 text-[2.5rem] text-[#171f2b] transition hover:bg-[#00eeff]"
                   >
-                    <i className="bx bx-arrow-back" />
+                    <i class="fa-solid fa-arrow-right-long"></i>
                     <span className="pointer-events-none invisible absolute -top-14 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-[#00eeff] px-4 py-1 text-[1.4rem] font-medium text-[#171f2b] opacity-0 transition group-hover/link:visible group-hover/link:opacity-100">
                       Preview
                     </span>
@@ -88,7 +88,7 @@ function PortfolioSection() {
               <div className="mb-2 flex items-center justify-between">
                 <i className={`${service.icon} text-[5rem] transition duration-300 group-hover:text-[#00eeff]`} />
                 <a href="#" onClick={(event) => event.preventDefault()} className="group/link relative inline-flex rounded-full bg-white p-4 text-[2.5rem] text-[#171f2b] transition group-hover:bg-[#00eeff] hover:bg-[#00eeff]">
-                  <i className="bx bx-arrow-back" />
+                  <i class="fa-solid fa-arrow-right-long"></i>
                 </a>
               </div>
               <h4 className="text-[2.3rem] font-semibold transition group-hover:text-[#00eeff]">{service.title}</h4>
