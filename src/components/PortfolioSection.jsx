@@ -19,10 +19,10 @@ function PortfolioSection() {
             key={tab}
             onClick={() => setActiveTab(index)}
             className={`flex w-full cursor-pointer items-center border-b-[0.3rem] px-2 text-[2.5rem] font-medium text-[#7c8594] transition ${
-              activeTab === index ? "border-[#00eeff] text-[#00eeff]" : "border-[#7c8594]"
+              activeTab === index ? "border-[#00eeff]" : "border-[#7c8594]"
             } ${index === 1 ? "justify-end" : "justify-start"}`}
           >
-            <h3>{tab}</h3>
+            <h3 className={activeTab === index ? "text-[#00eeff]" : ""}>{tab}</h3>
           </div>
         ))}
       </div>

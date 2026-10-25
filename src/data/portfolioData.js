@@ -5,15 +5,15 @@ export const portfolioData = {
   profile: {
     greeting: "Hello I'm",
     name: "Sufiyan Shahid",
-    role: "Fullstack Developer",
+    role: "Frontend Developer",
     homeDescription:
-      "Front-end developer (fresher) building responsive, SEO-friendly websites using HTML5, CSS3, JavaScript, and Bootstrap, with GitHub and Netlify deployment experience. Skilled in MySQL database management and PHP server-side development. Cisco-certified, studying Modern Web & App Development at SMIT and Software Engineering at Aptech, actively seeking internships, junior developer roles, and freelance web projects opportunities.",
+      "I’m a Web Developer passionate about building responsive, user-friendly web applications, interactive dashboards, and dynamic CRUD systems. I work with technologies including React, Angular, TypeScript, C#, PHP, Laravel, MySQL, SQL Server, and Firebase, along with modern frontend tools like Bootstrap and Tailwind CSS. My experience includes frontend development at Teyzix Core, API integration, authentication, and database management. I’ve also showcased projects at Aptech Vision 2026 and Aptech TechWiz 7 2026. Currently, I’m pursuing Software Engineering at Aptech Learning Pakistan and Modern Web & App Development at SMIT, while expanding my skills in Next.js and ASP.NET Core.",
     aboutTitle: "About me",
-    aboutRole: "Fullstack Developer!",
+    aboutRole: "Frontend Developer!",
     aboutDescription:
-      "Motivated and detail-oriented Fullstack Developer (Fresher) specializing in HTML5, CSS3, JavaScript, and responsive web design, focused on building SEO-friendly, high-performance user interfaces. Experienced in converting designs into functional, user-friendly websites. Also skilled in MySQL database management and PHP server-side development. Currently advancing through software engineering and modern web programs, seeking internships, junior roles, and freelance opportunities.",
+      "I enjoy turning ideas into practical, user-friendly web applications with clean code and responsive designs. My experience spans frontend and backend development, working with technologies like React, Angular, PHP, Laravel, C#, MySQL, SQL Server, and Firebase. I believe in continuous learning, solving problems, and improving my development skills through real-world projects. Alongside my studies at Aptech Learning Pakistan and SMIT, I’m exploring Next.js and ASP.NET Core to expand my capabilities and build better web experiences.",
     image: "/images/image.png",
-    cv: "/images/Sufiyan-Shahid-dev-Resume.pdf"
+    cv: "../../public/images/SUFIYAN SHAHID.pdf"
   },
 
   navigation: [
@@ -31,26 +31,26 @@ export const portfolioData = {
   ],
 
   resume: {
-    tabs: ["Expertise", "Skills", "education"],
+    tabs: ["Expertise", "Skills", "Education"],
 
     expertise: [
       {
         label: "MY Expertise",
-        title: "Fullstack Development (HTML, CSS, JavaScript)",
+        title: "Full Stack Development",
         description:
-          "Building scalable, SEO-friendly web interfaces from scratch using clean, maintainable code without relying on frameworks."
+          "Building complete web applications by combining responsive frontend interfaces with backend functionality, API integration, authentication, and database management using React, PHP, Laravel, C#, MySQL, SQL Server, and Firebase."
       },
       {
         label: "MY Expertise",
-        title: "Responsive Web Design & Bootstrap-Based Layouts",
+        title: "Frontend Development",
         description:
-          "Creating responsive, SEO-friendly web layouts using CSS and Bootstrap, leveraging grid systems and components to ensure consistent, mobile-first, visually balanced designs across desktop, tablet, and all modern devices."
+          "Building responsive, interactive, and user-friendly interfaces using React, Angular, JavaScript, TypeScript, Bootstrap, and Tailwind CSS. HTML5 · CSS3 · React · Angular · TypeScript"
       },
       {
         label: "MY Expertise",
-        title: "JavaScript Functionality & DOM Manipulation",
+        title: "Backend Development",
         description:
-          "Implementing interactive, SEO-friendly web features including form validation, sliders, theme toggles, dynamic content rendering, API integration, dynamic data handling, and full user actions like add, edit, and delete operations."
+          "Developing server-side functionality, CRUD systems, authentication, and application logic. PHP · Laravel · C# · ASP.NET Core (Learning)"
       },
       {
         label: "MY Expertise",
@@ -73,7 +73,7 @@ export const portfolioData = {
     ],
 
     skills: [
-      { label: "Fullstack", secondLabel: "Development", icon: "fa-solid fa-code" },
+      { label: "Frontend", secondLabel: "Development", icon: "fa-solid fa-code" },
       { label: "HTML5", icon: "fa-brands fa-html5" },
       { label: "CSS3", icon: "fa-brands fa-css3-alt" },
       { label: "JavaScript", icon: "fa-brands fa-square-js" },
@@ -95,10 +95,10 @@ export const portfolioData = {
     education: [
       {
         period: "October 2025 - December 2025 (Completed)",
-        title: "Cisco Certified Fullstack Developer",
+        title: "Cisco Certified Frontend Developer",
         institute: "From: Cisco Networking Academy",
         description:
-          "Cisco Networking Academy certified Fullstack Developer skilled in building responsive, high-performance web applications using modern technologies, focusing on user experience, clean code, and scalable design solutions."
+          "Cisco Networking Academy certified Frontend Developer skilled in building responsive, high-performance web applications using modern technologies, focusing on user experience, clean code, and scalable design solutions."
       },
       {
         period: "2025 - Present",
@@ -148,7 +148,7 @@ export const portfolioData = {
   projects: [
     {
       image: "/images/work13.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A fully responsive landing page built with pure HTML and CSS, demonstrating clean layout, structure, and visual hierarchy.",
       tech: "HTML5, CSS3",
       preview: "https://usabilityhubclones.netlify.app/",
@@ -156,7 +156,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work1.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A dynamic student ID card generator using HTML, CSS, Bootstrap, and JavaScript with validation, printing, and responsive design.",
       tech: "HTML5, CSS3, Bootstrap, and JavaScript",
       preview: "https://studentid-card-generator.netlify.app/",
@@ -164,7 +164,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work2.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A responsive Rent a Car landing page clone built with semantic HTML and CSS, showcasing modern layout and accessibility.",
       tech: "HTML5, CSS3",
       preview: "https://rentacarclone.netlify.app/",
@@ -172,7 +172,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work3.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A responsive calculator web app built with HTML, CSS, and JavaScript, featuring clean ES6 logic and full arithmetic functionality.",
       tech: "HTML5, CSS3, JavaScript",
       preview: "https://calculator-web-app-using-js.netlify.app/",
@@ -180,7 +180,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work4.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A responsive product landing page built with HTML, CSS, Bootstrap, and JavaScript, featuring dynamic data-driven UI and clean product presentation.",
       tech: "HTML5, CSS3, Bootstrap, JavaScript",
       preview: "https://dynamic-products-data-handling.netlify.app/",
@@ -188,7 +188,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work5.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A responsive contact form built with HTML, CSS, and JavaScript, featuring real-time validation, accessible markup, and user-friendly feedback.",
       tech: "HTML5, CSS3, JavaScript",
       preview: "https://form-validations-using-javascript.netlify.app/",
@@ -196,7 +196,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work6.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A responsive website built with HTML, CSS, and Bootstrap, showcasing clean layout, structured sections, and adaptive design.",
       tech: "HTML5, CSS3, Bootstrap",
       preview: "https://free-courses-static-website.netlify.app/",
@@ -204,7 +204,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work7.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A responsive background color code generator built with HTML, CSS, and JavaScript, featuring interactive color switching and copy-to-clipboard functionality.",
       tech: "HTML5, CSS3, JavaScript",
       preview: "https://bg-color-code-generator.netlify.app/",
@@ -212,7 +212,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work8.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A responsive To-Do web app built with HTML, CSS, Bootstrap, and JavaScript, featuring task management, live validation, and dynamic UI updates.",
       tech: "HTML5, CSS3, Bootstrap and JavaScript",
       preview: "https://to-do-work-web-app.netlify.app/",
@@ -220,7 +220,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work9.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A responsive landing page with light/dark mode toggle, built using HTML, CSS, Bootstrap, and JavaScript, showcasing clean, adaptive design and interactive features.",
       tech: "HTML5, CSS3, Bootstrap and JavaScript",
       preview: "https://roghani-fragrance.netlify.app/",
@@ -228,7 +228,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work10.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A responsive landing page converted from Figma to HTML & CSS, showcasing semantic markup, scalable styling, and adaptive design.",
       tech: "HTML5, CSS3",
       preview: "https://smitminihackathon.netlify.app/",
@@ -236,7 +236,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work11.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A responsive Tic Tac Toe web app built with HTML, CSS, and JavaScript, featuring interactive gameplay, win detection, and clean ES6 code.",
       tech: "HTML5, CSS3, JavaScript",
       preview: "https://tic-tac-toe-by-using-js.netlify.app/",
@@ -244,7 +244,7 @@ export const portfolioData = {
     },
     {
       image: "/images/work12.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "A responsive Facebook-style registration form built with HTML, CSS, and JavaScript, featuring validation, localStorage, and modern ES6 code.",
       tech: "HTML5, CSS3, JavaScript",
       preview: "https://local-form-storage-task.netlify.app/",
@@ -252,15 +252,15 @@ export const portfolioData = {
     },
     {
       image: "/images/quiz-app.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "I built a responsive quiz web app using HTML, CSS, and JavaScript, featuring real-time scoring, validation, and smooth user interactions.",
       tech: "HTML5, CSS3, JavaScript",
-      preview: "https://Fullstack-quiz-web-app.netlify.app/",
+      preview: "https://Frontend-quiz-web-app.netlify.app/",
       github: "https://github.com/SufiyanShahidDev/Quiz-Web-App"
     },
     {
       image: "/images/report card.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "I built a responsive student result management system using HTML, CSS, Bootstrap, and JavaScript, enabling semester-based results, validation, and calculations.",
       tech: "HTML5, CSS3, Bootstrap and JavaScript",
       preview: "https://student-all-semesters-report-card.netlify.app/",
@@ -268,7 +268,7 @@ export const portfolioData = {
     },
     {
       image: "/images/coupon.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "I built a responsive coupon discount system using HTML, CSS, Bootstrap, and JavaScript, featuring real-time validation, pricing, and user-friendly interface.",
       tech: "HTML5, CSS3, Bootstrap and JavaScript",
       preview: "https://coupon-code-assignment.netlify.app/",
@@ -276,7 +276,7 @@ export const portfolioData = {
     },
     {
       image: "/images/colour-palette.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "Responsive color palette generator using JavaScript generates HEX codes instantly, enabling designers to copy, explore, and build modern UI color schemes.",
       tech: "HTML5, CSS3 and JavaScript",
       preview: "https://colour-palette-generator-using-js.netlify.app/",
@@ -284,7 +284,7 @@ export const portfolioData = {
     },
     {
       image: "/images/Expense-Tracker.png",
-      title: "Fullstack Project",
+      title: "Frontend Project",
       description: "Responsive expense tracker using JavaScript records transactions, manages income and expenses, stores data with localStorage, and updates balances instantly.",
       tech: "HTML5, CSS3 and JavaScript",
       preview: "https://expense-tracker-web-app-using-js.netlify.app/",
@@ -294,11 +294,11 @@ export const portfolioData = {
 
   services: [
     { title: "Web Development", description: "I create clean and responsive websites using HTML, CSS, and JavaScript that work smoothly on all devices.", icon: "bx bx-code-alt" },
-    { title: "Fullstack Development", description: "I create clean and responsive websites using HTML, CSS, and JavaScript that work smoothly on all devices.", icon: "bx bx-palette" },
+    { title: "Frontend Development", description: "I create clean and responsive websites using HTML, CSS, and JavaScript that work smoothly on all devices.", icon: "bx bx-palette" },
     { title: "JavaScript Functionality", description: "I add interactive features like form validation, timers, color changers, and dynamic content to improve user experience.", icon: "bx bx-cog" },
     { title: "Website Fixes & Improvements", description: "I fix layout issues, improve design, and update existing websites for better performance and appearance.", icon: "bx bx-wrench" },
     { title: "Basic SEO Setup", description: "I apply basic SEO practices such as clean structure, meta tags, and optimized content to improve search visibility.", icon: "bx bx-signal-5" },
-    { title: "Problem Solving", description: "I solve Fullstack issues efficiently and write clean, maintainable code.", icon: "bx bx-bulb" },
+    { title: "Problem Solving", description: "I solve Frontend issues efficiently and write clean, maintainable code.", icon: "bx bx-bulb" },
     { title: "Responsive Web Design & Bootstrap-Based Layouts", description: "Creating layouts that adapt smoothly across desktop, tablet, and mobile using CSS and Bootstrap. Using Bootstrap grid and components to build consistent, responsive, and visually balanced designs.", icon: "fa-solid fa-mobile-screen" },
     { title: "Github & Netlify Deployment", description: "I also understand GitHub version control and confidently deploy modern web projects using Netlify platform.", icon: "fa-solid fa-cloud-arrow-up" }
   ]
