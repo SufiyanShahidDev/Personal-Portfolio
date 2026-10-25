@@ -54,25 +54,40 @@ export const portfolioData = {
       },
       {
         label: "MY Expertise",
-        title: "UI Components & Micro-Interactions",
+        title: "Database Management",
         description:
-          "Crafting reusable UI components and micro-interactions using JavaScript and CSS, improving UX, accessibility, performance, scalability, and pixel-perfect responsive design across modern web apps."
+          "Managing application data, designing database operations, and connecting applications to databases. MySQL · SQL Server · Firebase Firestore"
       },
       {
         label: "MY Expertise",
-        title: "User-Focused UI/UX Implementation",
+        title: "Dashboard & UI Development",
         description:
-          "User-focused UI/UX implementation emphasizing usability, accessibility, and responsive design, creating intuitive interfaces with HTML, CSS, JavaScript, improving user engagement, performance, and seamless cross-device experiences."
+          "Creating professional dashboard interfaces, data-driven layouts, SaaS landing pages, and onboarding portals. Responsive Design · Dashboard UI · SaaS Interfaces"
       },
       {
         label: "MY Expertise",
-        title: "Project-Driven Learning & Problem Solving",
+        title: "API Integration & Authentication",
         description:
-          "Project-driven learning fuels my problem-solving: building responsive prototypes, applying iterative feedback, mastering web technologies, delivering user-centered, SEO-aware solutions that accelerate career growth and measurable impact."
+          "Connecting frontend applications to APIs and implementing user authentication and data handling. Axios · REST APIs · Firebase Authentication"
+      },
+      {
+        label: "MY Expertise",
+        title: "Development Tools & Deployment",
+        description:
+          "Managing source code, debugging applications, and deploying web projects. Git · GitHub · VS Code · Vercel · Netlifyt."
       }
     ],
 
     skills: [
+      { label: "Full Stack", secondLabel: "Development", icon: "fa-solid fa-layer-group" },
+      { label: "React JS", icon: "fa-brands fa-react" },
+      { label: "Angular", icon: "fa-brands fa-angular" },
+      { label: "Next JS", icon: "fa-brands fa-node-js" },
+      { label: "Tailwind CSS", icon: "fa-brands fa-tailwind-css" },
+      { label: "Laravel", icon: "fa-brands fa-laravel" },
+      { label: "SQL Server", icon: "fa-solid fa-server" },
+      { label: "C#", icon: "fa-solid fa-laptop-code" },
+      { label: "ASP.NET Core", icon: "fa-solid fa-microchip" },
       { label: "Frontend", secondLabel: "Development", icon: "fa-solid fa-code" },
       { label: "HTML5", icon: "fa-brands fa-html5" },
       { label: "CSS3", icon: "fa-brands fa-css3-alt" },
@@ -84,11 +99,6 @@ export const portfolioData = {
       { label: "On-Page SEO", icon: "fa-solid fa-magnifying-glass" },
       { label: "MySQL Database", icon: "fa-solid fa-database" },
       { label: "PHP", icon: "fa-brands fa-php" },
-      { label: "React JS", icon: "fa-brands fa-react" },
-      { label: "Tailwind CSS", icon: "fa-brands fa-tailwind-css" },
-      { label: "Laravel", icon: "fa-brands fa-laravel" },
-      { label: "SQL Server", icon: "fa-solid fa-server" },
-      { label: "C#", icon: "fa-solid fa-laptop-code" },
       { label: "Vercel", icon: "fa-solid fa-square-caret-up" }
     ],
 
